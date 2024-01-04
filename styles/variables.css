@@ -16,7 +16,7 @@
   --link-shadow: #ff0070;
   --focus-link: #F1B2CE;
   --hover-link: #F1B2CE; 
-  --main-font: "IBM Plex mono";
+  --main-font: 'IBM Plex mono';
   --text-size: 18px;
   --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --text-color: #F1B2CE; 
