@@ -20,7 +20,6 @@
   min-block-size: 668px;
   padding: 10px;
   align-items: center;
-  padding: 20px;
 }
 
 /* Стилизация декоративных элементов хедера */
@@ -164,12 +163,13 @@
 
 .list {
   display: grid;
-  gap: 10px;
+  gap: 20px;
 }
 
 .card {
   display: grid;
   gap: 10px;
+  font-size: 18px;
   font-family: var(--main-font);
   line-height: 23.4px; /* 130% */
 }
@@ -308,7 +308,6 @@
   }
 
   .section-reasons__reasons__list {
-      grid-template-columns: repeat(3, 1fr);
       grid-column: 1/4;
   }
 
@@ -344,6 +343,9 @@
   .pictures__image:nth-child(5) {
       grid-area: street;
   }
+  .footer__title {
+    inset-inline-start: 0;
+  }
 }
 
 /* Медиа 1024px */
@@ -364,7 +366,7 @@
       display: grid;
       grid-template-rows: repeat(3, 1fr);
       justify-self: center;
-      align-self:flex-start;
+      align-self: flex-start;
   }
 
   .header__theme-menu-list {
@@ -375,10 +377,6 @@
   .header__title {
       font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
       line-height: 82.5%;
-  }
-
-  .content {
-    /* padding: 160px 20px; */
   }
 
   .why-section {
@@ -418,6 +416,5 @@
 
   .footer__title {
     padding-left: 39px;
-    /* padding-bottom: 110px; */
   }
 }
