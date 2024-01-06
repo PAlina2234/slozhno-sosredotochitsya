@@ -23,19 +23,15 @@
 }
 
 /* Стилизация декоративных элементов хедера */
-.decorated-zone::before,
-.decorated-zone::after {
-  content: "";
-  position: absolute;
-  inline-size: 25px;
-  block-size: 25px;
-}
-
 .decorated-zone::before {
   border-inline-end: 1px solid var(--decoration-color);
   border-block-start: 1px solid var(--decoration-color);
   inset-inline-end: 10px;
   inset-block-start: 10px;
+  content: "";
+  position: absolute;
+  inline-size: 25px;
+  block-size: 25px;
 }
 
 .decorated-zone::after {
@@ -43,6 +39,10 @@
   border-block-end: 1px solid var(--decoration-color);
   inset-inline-start: 10px;
   inset-block-end: 10px;
+  content: "";
+  position: absolute;
+  inline-size: 25px;
+  block-size: 25px;
 }
 
 .rec-decor {
@@ -224,7 +224,7 @@
 /* Стилизация картинок */
 .section-gallery {
   display: grid;
-  gap: 20px;
+  gap: 10px;
 }
 
 .pictures {
@@ -394,8 +394,7 @@
   .section-reasons__reasons__list {
       grid-template-columns: repeat(3, 1fr);
       grid-column: 1/4;
- 
-  }
+ }
 
   .section-concentration {
       grid-template-columns: repeat(3, 1fr);
@@ -413,7 +412,7 @@
     align-items: center;
   }
 
-  .footer__title {
-    padding-left: 39px;
+  .pictures {
+    padding-top: 10px;
   }
 }
