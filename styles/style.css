@@ -177,11 +177,11 @@
 .link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--link-shadow, #ff0070);
-  cursor: pointer;
+  cursor: pointer;  
 }
 
 .link:hover {
-  border-block-end: 1px solid var(--hover-link, #f1b2ce);
+  border-block-end: 2px solid var(--hover-link, #f1b2ce);
   transition: transform 4s;
 }
 
